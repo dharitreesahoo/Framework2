@@ -450,3 +450,17 @@
 2020-03-17 18:03:336 INFO  BasePage:178 - element text is ..Single Input Field
 2020-03-17 18:03:383 INFO  BaseTest:104 - **************TC_001_invalidLoginTest_InvalidUserNameInvalidPasswordFinished*************** 
 
+2020-03-17 19:03:37 INFO  BaseTest:82 - **************TC_001_invalidLoginTest_InvalidUserNameInvalidPasswordStarted*************** 
+2020-03-17 19:03:916 INFO  BasePage:43 - Clicked on element Input Forms
+2020-03-17 19:03:898 INFO  BasePage:51 - Entered omNamahSivaya  in the textbox By.xpath: //input[@id='user-message']
+2020-03-17 19:03:507 INFO  BasePage:43 - Clicked on element Show Message
+2020-03-17 19:03:219 INFO  BasePage:178 - element text is ..Single Input Field
+2020-03-17 19:03:747 INFO  BaseTest:104 - **************TC_001_invalidLoginTest_InvalidUserNameInvalidPasswordFinished*************** 
+
+2020-03-17 19:03:704 INFO  BaseTest:82 - **************TC_001_invalidLoginTest_InvalidUserNameInvalidPasswordStarted*************** 
+2020-03-17 19:03:203 INFO  BasePage:43 - Clicked on element Input Forms
+2020-03-17 19:03:877 INFO  BasePage:51 - Entered omNamahSivaya  in the textbox By.xpath: //input[@id='user-message']
+2020-03-17 19:03:439 INFO  BasePage:43 - Clicked on element Show Message
+2020-03-17 19:03:770 INFO  BasePage:178 - element text is ..Single Input Field
+2020-03-17 19:03:829 INFO  BaseTest:104 - **************TC_001_invalidLoginTest_InvalidUserNameInvalidPasswordFinished*************** 
+
