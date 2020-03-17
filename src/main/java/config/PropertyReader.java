@@ -23,11 +23,7 @@ public class PropertyReader implements ConfigReader {
 			OR = new Properties();
 			OR.load(file);
 			
-			/*String filePath1 = ResourceHelper.getResourcePath("/resources/configfile/config1.properties");
-			file = new FileInputStream(new File(filePath1));
-			OR = new Properties();
-			OR.load(file);*/
-		} catch (Exception e) {
+			} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

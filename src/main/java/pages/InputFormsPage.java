@@ -10,27 +10,28 @@ import org.testng.Assert;
 
 public class InputFormsPage extends BasePage {
 	WebDriver driver;
-	
-	
+
 	//WebElement lnkInputorms = this.getLocator(By.xpath("//a[text()='Input Forms']"));
 	
 	public InputFormsPage(WebDriver driver) {
 		//this.driver= driver;
 		super(driver);
-		
-		
 	}
 	
 	 By lnkInputForms = By.xpath("//a[text()='Input Forms']");
 	 By txtMsgBox = By.xpath("//input[@id='user-message']");
 	 By btnShowMsg = By.xpath("//button[text()='Show Message']");
 	 By labelMsg = By.xpath("//label[text()='Your Message: ']/following-sibling::span");
+	 By lnkSimpleFormDemo =  By.xpath("(//a[text()='Simple Form Demo'])[2]");
+	 By lnkCheckBoxDemo =  By.xpath("(//a[text()='Checkbox Demo'])[2]");
+	 By chkBox =  By.xpath("//input[@id='isAgeSelected']");
+	 By chkBoxSuccessMsg =  By.xpath("//input[@id='isAgeSelected']");
 			
 /*	@FindBy(xpath = "//a[text()='Input Forms']")
 	WebElement lnkInputForms;*/
 	
-	@FindBy(xpath = "(//a[text()='Simple Form Demo'])[2]")
-	WebElement lnkSimpleFormDemo;
+/*	@FindBy(xpath = "(//a[text()='Simple Form Demo'])[2]")
+	WebElement lnkSimpleFormDemo;*/
 	/*
 	@FindBy(xpath="//input[@id='user-message']")
 	WebElement txtMsgBox;*/
@@ -40,17 +41,17 @@ public class InputFormsPage extends BasePage {
 	
 	/*@FindBy(xpath="//label[text()='Your Message: ']/following-sibling::span")
 	WebElement labelMsg;*/
-	
+	/*
 	@FindBy(xpath = "(//a[text()='Checkbox Demo'])[2]")
-	WebElement lnkCheckBoxDemo;
+	WebElement lnkCheckBoxDemo;*/
 	
-	@FindBy(xpath = "//input[@id='isAgeSelected']")
-	WebElement chkBox;
+	/*@FindBy(xpath = "//input[@id='isAgeSelected']")
+	WebElement chkBox;*/
 	
-	
+	/*
 	@FindBy(xpath = "//input[@id='isAgeSelected']")
 	WebElement chkBoxSuccessMsg;
-	
+	*/
 
 	public boolean verfySimpleForm() {
 		boolean  blnflg = false;
